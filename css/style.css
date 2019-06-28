@@ -58,3 +58,17 @@ li {
 	border: 1px solid #e9ecef;
 	border-radius: 3px;
 }
+
+.delete-x {
+	float: right;
+	line-height: 15px;
+	width: 17px;
+	height: 17px;
+	color: white;
+	border-radius: 3px;
+	padding-left: 2px;
+}
+
+.delete-x:hover {
+	color: red;
+}
