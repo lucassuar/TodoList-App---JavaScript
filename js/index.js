@@ -16,8 +16,8 @@ btn.addEventListener('click', function(){
 
 // Individual deletes - STUCK WITH THIS BELOW
 
-if(document.getElementById('delet') != null){
-	var delet = document.getElementById('delet').innerText;
+if(document.getElementsByClassName('delet') != null){
+	var delet = document.getElementsByClassName('delet').innerText;
 	console.log('delet detected: ' + delet); 
 } else { console.log('null'); }
 
