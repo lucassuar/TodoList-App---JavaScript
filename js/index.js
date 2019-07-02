@@ -15,12 +15,7 @@ btn.addEventListener('click', function(){
 		ulList.insertBefore(newItem, ulList.childNodes[0]);  // Insert <li> before the first child of <ul>
 	}
 
-
-	
-	
-	// input = ' ';  // Reset input value to empty field
 })
-
 
 // CREATE CHECKBOX AND MARK DONE TODO  - FUNCIONALITY _________________________________________________
 
