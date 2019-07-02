@@ -12,6 +12,7 @@ btn.addEventListener('click', function(){
 		newItem.innerHTML = input  // Add content to li element for todo.                 
 		newItem.appendChild(createCheckbox());
 		newItem.appendChild(createDeleteX());
+		newItem.contentEditable = "true";
 		ulList.insertBefore(newItem, ulList.childNodes[0]);  // Insert <li> before the first child of <ul>
 	}
 
@@ -34,7 +35,7 @@ function createCheckbox() {
 	return checkbox;
   }
 
-  // CREATE SINGLE TODO DELETE X  - FUNCIONALITY _________________________________________________
+  // CREATE SINGLE TODO DELETE X and DELETE ITEM - FUNCIONALITY _________________________________________________
 
   function createDeleteX() {
 	const deleteX = document.createElement('p');
